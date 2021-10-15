@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(90deg,rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(venise.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+	font-family: "Poppins", sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	overflow: hidden;
+}
+
+/*.gradient{
+  text-transform: uppercase; 
+  background-image: linear-gradient(to right, #00F260, #f79d00, #0575E6, #64f38c);
+  -webkit-background-clip: text; 
+  background-clip: text; 
+  color: transparent;
+	font-size: 40px;
+	margin: -150px 0 40px;
+  
+  background-size: 300%;
+  background-position: -100%;  
+  
+  animation: animatedText 10s infinite alternate-reverse;
+}
+
+@keyframes animatedText{
+  to{
+    background-position: 100%; 
+  }
+} */
+
+h1 {
+  font-weight: normal;
+  font-size: 50px;
+  /* margin: -150px 0 40px; */
+  color: #fff;
+}
+
+p {
+  font-weight: 800;
+  font-size: 30px;
+  color: #fff;
+}
+
+.countdown {
+	display: flex;
+	transform: scale(2);
+  color: #fff;
+}
+
+.time {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 15px;
+  color: #12ff72;
+}
+
+.time h2 {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1;
+  margin: 0 0 5px;
+}
+
+@media screen and (max-width: 500px){
+  h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .time {
+    margin: 5px
+  }
+
+  .time h2 {
+    font-size: 12px;
+  }
+
+  .time small {
+    font-size: 10px;
+  }
+}
