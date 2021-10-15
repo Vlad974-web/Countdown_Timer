@@ -52,11 +52,12 @@ p {
   font-weight: 800;
   font-size: 30px;
   color: #fff;
+  margin-bottom: 40px;
 }
 
 .countdown {
 	display: flex;
-	transform: scale(2);
+	transform: scale(2.5);
   color: #fff;
 }
 
